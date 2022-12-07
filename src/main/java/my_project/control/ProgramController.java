@@ -3,6 +3,7 @@ package my_project.control;
 import KAGO_framework.control.ViewController;
 import KAGO_framework.model.abitur.datenstrukturen.Queue;
 import my_project.model.Ball;
+import my_project.model.Baum;
 import my_project.model.House;
 import my_project.view.InputManager;
 
@@ -43,6 +44,8 @@ public class ProgramController {
         viewController.draw(haus2);
         House haus3= new House(450,150);
         viewController.draw(haus3);
+        Baum baum1= new Baum(200, 100);
+        viewController.draw(baum1);
 
 
 

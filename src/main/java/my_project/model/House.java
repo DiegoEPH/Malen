@@ -13,6 +13,10 @@ public class House extends GraphicalObject {
     }
 
     public void draw(DrawTool drawTool) {
+        //Schornstein
+        drawTool.setCurrentColor(Color.darkGray);
+        drawTool.drawFilledRectangle(x+10, y-35, 10,20);
+        //Haus
         drawTool.setCurrentColor(Color.RED);
         drawTool.drawFilledTriangle(x, y,x+60,y,x+30,y-50);
         drawTool.setCurrentColor(Color.yellow);
@@ -26,6 +30,7 @@ public class House extends GraphicalObject {
         drawTool.setCurrentColor(Color.lightGray);
         drawTool.drawFilledRectangle(x+10,y+10, 10,10);
         drawTool.drawFilledRectangle(x+40,y+10, 10,10);
+
         //Outlines
         drawTool.setCurrentColor(Color.black);
         drawTool.drawRectangle(x+10,y+10, 10,10);
@@ -35,6 +40,8 @@ public class House extends GraphicalObject {
         drawTool.drawRectangle(x+15, y+15,5,5);
         drawTool.drawRectangle(x+45, y+15,5,5);
         drawTool.drawTriangle(x, y,x+60,y,x+30,y-50);
+
+
 
 
     }
