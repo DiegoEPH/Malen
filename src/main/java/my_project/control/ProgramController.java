@@ -40,11 +40,7 @@ public class ProgramController {
         // Erstelle ein Objekt der Klasse Ball und lasse es zeichnen
         House haus1= new House(150,150);
         viewController.draw(haus1);
-        House haus2= new House(350,150);
-        viewController.draw(haus2);
-        House haus3= new House(450,150);
-        viewController.draw(haus3);
-        Baum baum1= new Baum(200, 100);
+        Baum baum1= new Baum(300, 130 );
         viewController.draw(baum1);
 
 
